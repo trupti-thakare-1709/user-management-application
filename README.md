@@ -1,3 +1,9 @@
+## Run Instructions
+
+1. Clone the repo
+2. Run `npm install`
+3. Run `ng serve` to start the app on http://localhost:4200
+
 # UserManagement
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
