@@ -1,6 +1,6 @@
 ## Run Instructions
 
-1. Clone the repo
+1. Clone the repo : https://github.com/trupti-thakare-1709/user-management-application.git
 2. Run `npm install`
 3. Run `ng serve` to start the app on http://localhost:4200
 
