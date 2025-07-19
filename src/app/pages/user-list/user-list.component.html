@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <tr>
+            <th *ngFor="let head of headers">
+                {{ head | titlecase}}
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users" (click)="goToDetails(user)">
+            <td *ngFor="let head of headers">
+                <input [(ngModel)]="user[head]" />
+            </td>
+        </tr>
+    </tbody>
+</table>

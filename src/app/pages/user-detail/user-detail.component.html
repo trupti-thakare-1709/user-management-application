@@ -1,0 +1,10 @@
+<div *ngIf="user">
+  <h2> <span style="background-color: #f42775; padding: 10px 10px; border-radius: 10px;">User Details :- </span> </h2>
+  <div id="deco">
+      <div *ngFor="let key of userKeys" >
+          <strong>{{ key | titlecase}}:</strong> {{ user[key] }} 
+      </div>
+  </div>
+  <br>
+  <button (click)="backButton()">Back to User List</button>
+</div>
